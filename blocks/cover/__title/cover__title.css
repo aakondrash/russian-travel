@@ -11,6 +11,7 @@
   line-height: 76px;
   max-width: 560px;
   position: relative;
+  white-space: pre;
 }
 
 @media screen and (max-width: 1023px) {
