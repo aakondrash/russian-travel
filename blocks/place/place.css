@@ -10,15 +10,15 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place{
-    margin-bottom: 73px;
+    margin-bottom: 72px;
     column-gap: 32px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     column-gap: 28px;
     grid-template-columns: 1fr;
   }
@@ -26,6 +26,7 @@
 @media screen and (max-width: 500px) {
   .place {
     grid-template-columns: 320px;
-    gap: 32px;
+    column-gap: 32px;
+    row-gap: 32px;
   }
 }
